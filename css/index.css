@@ -14,11 +14,11 @@
 }
 ::-webkit-scrollbar{
     width: 4px;
-    color:#1b1ef7;
+    color:#c70039;
     transition: all .4s ease;
 }
 ::-webkit-scrollbar-thumb {
-    background: #1b1ef7; 
+    background: #c70039; 
     border-radius: 4px;
     width: 4px;
     transition: all .4s ease;
@@ -51,7 +51,7 @@ input[type=number] {
       position: fixed;
       z-index:100;
       font-family: poppins;
-      background-color: #000000;
+      background-color: #202020;
       color: whitesmoke;
       font-size: 70px;
       width: 100%;
@@ -391,7 +391,7 @@ body{
 #breaker{
     height: 100vh;
     width: 200%;
-    background-color: #1b1ef7;
+    background-color: #c70039;
     opacity: 1;
     animation: breakeranimate 2s linear;
     display: none;
@@ -411,7 +411,7 @@ body{
     100%{ transform : translateX(100%) }
 }
 .color{
-    color: #1b1ef7;
+    color: #c70039;
     transition: all .4s ease;
 }
 #about{
@@ -513,7 +513,7 @@ body{
     font-family: aileron;
     font-weight: 400;
     font-size: 35px;
-    color: #1b1ef7;
+    color: #c70039;
     transition: all .4s ease;
 }
 .cv {
@@ -524,7 +524,7 @@ body{
     border:none;
     padding: 15px 30px;
     color: whitesmoke;
-    background: #1b1ef7;
+    background: #c70039;
     outline: none;
     font-size:20px;
     font-family: aileron;
@@ -600,14 +600,14 @@ body{
     margin: 20px;
     border-radius: 30%;
     padding: 10px;
-    border: 0px solid #1b1ef7;
-    background: #1b1ef7;
-    box-shadow:0px 0px 0px 0px #1b1ef7 ;
+    border: 0px solid #c70039;
+    background: #c70039;
+    box-shadow:0px 0px 0px 0px #c70039 ;
     height:100px;
     transition: all .8s ease;
 }
 .service:hover .service-img img{
-    box-shadow:0px 0px 0px 400px #1b1ef7 ;
+    box-shadow:0px 0px 0px 400px #c70039 ;
 }
 .service-description{
     font-family: poppins;
@@ -693,7 +693,7 @@ body{
     transition: all .4s ease;
     width:80%;
     border-radius: 10px;
-    background: #1b1ef7;
+    background: #c70039;
 }
 .python-progress{
     position: absolute;
@@ -706,7 +706,7 @@ body{
     transition: all .4s ease;
     width:55%;
     border-radius: 10px;
-    background: #1b1ef7;
+    background: #c70039;
 }
 .js-progress{
     position: absolute;
@@ -720,7 +720,7 @@ body{
     transition: all .4s ease;
     width:50%;
     border-radius: 10px;
-    background: #1b1ef7;
+    background: #c70039;
 }
 .serveradmin-progress{
     position: absolute;
@@ -733,7 +733,7 @@ body{
     transition: all .4s ease;
     width:90%;
     border-radius: 10px;
-    background: #1b1ef7;
+    background: #c70039;
 }
 .linux-progress{
     position: absolute;
@@ -745,7 +745,7 @@ body{
     justify-content: center;
     width:75%;
     border-radius: 10px;
-    background: #1b1ef7;
+    background: #c70039;
     transition: all .4s ease;
 }
 .siem-progress{
@@ -759,7 +759,7 @@ body{
     transition: all .4s ease;
     width:50%;
     border-radius: 10px;
-    background: #1b1ef7;
+    background: #c70039;
 }
 .projman-progress{
     position: absolute;
@@ -772,7 +772,7 @@ body{
     transition: all .4s ease;
     width:50%;
     border-radius: 10px;
-    background: #1b1ef7;
+    background: #c70039;
 }
 .smartc-progress{
     position: absolute;
@@ -785,7 +785,7 @@ body{
     transition: all .4s ease;
     width:80%;
     border-radius: 10px;
-    background: #1b1ef7;
+    background: #c70039;
 }
 .webdev-progress{
     position: absolute;
@@ -798,7 +798,7 @@ body{
     transition: all .4s ease;
     width:99%;
     border-radius: 10px;
-    background: #1b1ef7;
+    background: #c70039;
 }
 .redteam-progress{
     position: absolute;
@@ -811,7 +811,7 @@ body{
     width:30%;
     border-radius: 10px;
     transition: all .4s ease;
-    background: #1b1ef7;
+    background: #c70039;
 }
 .portfolio-header{
     height: auto;
@@ -870,7 +870,7 @@ padding-bottom: 40px;
     font-family: poppins;
     font-weight: 200;
     padding: 20px;
-    color: #1b1ef7;
+    color: #c70039;
     transition: all .4s ease;
 }
 .portfolio-text p{
@@ -887,11 +887,11 @@ padding-bottom: 40px;
     font-weight: 200;
     padding: 10px 20px;
     background:transparent;
-    color:#1b1ef7;
+    color:#c70039;
     transition: all .4s ease;
     outline: none;
     margin: 20px;
-    border: 1.5px solid #1b1ef7;
+    border: 1.5px solid #c70039;
     cursor: pointer;
     overflow: hidden;
     position: relative;
@@ -906,7 +906,7 @@ padding-bottom: 40px;
     top: 0;
     left: 0;
     z-index: 3;
-    background: #1b1ef7;
+    background: #c70039;
     transition: all .7s ease;
 }
 .portfolio-text button:hover{
@@ -937,7 +937,7 @@ padding-bottom: 40px;
     content: "";
     height: 100%;
     width: 100%;
-    background: #1b1ef7;
+    background: #c70039;
     opacity: .1;
     top: 0;
     left: 0;
@@ -1038,7 +1038,7 @@ padding-bottom: 40px;
     position: absolute;
     left: 0;
     bottom: 0;
-    background: #1b1ef7;
+    background: #c70039;
     color: whitesmoke;
     font-size: 18px;
     text-align: center;
@@ -1453,7 +1453,7 @@ For devices with smaller width like mobile phone
     #breaker{
         height: 50vh;
         width: 200%;
-        background-color: #1b1ef7;
+        background-color: #c70039;
         opacity: 1;
         animation: breakeranimate 2s linear;
         display: none;
@@ -1621,7 +1621,7 @@ For devices with smaller width like mobile phone
                 display: none;
             }
             .service:hover .service-img img{
-                box-shadow:0px 0px 0px 0px #1b1ef7 ;
+                box-shadow:0px 0px 0px 0px #c70039 ;
             }
             .portfolio-image img{
                 height: 300px;
@@ -1908,7 +1908,7 @@ for tabs and large phones
     #breaker{
         height: 50vh;
         width: 200%;
-        background-color: #1b1ef7;
+        background-color: #c70039;
         opacity: 1;
         animation: breakeranimate 2s linear;
         display: none;
@@ -2092,7 +2092,7 @@ for tabs and large phones
                 display: none;
             }
             .service:hover .service-img img{
-                box-shadow:0px 0px 0px 0px #1b1ef7 ;
+                box-shadow:0px 0px 0px 0px #c70039 ;
             }
             .portfolio-image img{
                 height: 380px;
