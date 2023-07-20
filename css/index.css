@@ -770,7 +770,7 @@ body{
     align-items: center;
     justify-content: center;
     transition: all .4s ease;
-    width:95%;
+    width:50%;
     border-radius: 10px;
     background: #1b1ef7;
 }
@@ -1346,7 +1346,7 @@ form button:hover{
     width: 100%;
 }
 .color-red{
-    background: #1b1ef7;
+    background: #c70039;
 }
 .color-purple{
     background: #481380;
